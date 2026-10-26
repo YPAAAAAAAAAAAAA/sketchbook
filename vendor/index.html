@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Sketchbook</title>
+<link rel="stylesheet" href="sketch.css">
+</head>
+<body>
+<canvas id="stage" aria-label="Singapore sketchbook. Drag a page to turn it. Drag the glass across the ink."></canvas>
+<button id="toggle" type="button" aria-label="Plates" aria-expanded="false" aria-controls="panel"><i></i><i></i><i></i></button>
+<div id="panel">
+  <p id="help">Drag the page to turn it. Drag the glass across the ink.</p>
+  <ol id="plates"></ol>
+  <p id="credit">idea after @mengto (mengto/sketchbook); clean-room implementation, no code copied</p>
+</div>
+<p id="hint">Drag the page to turn it. Drag the glass across the ink.<small>idea after @mengto (mengto/sketchbook); clean-room implementation, no code copied</small></p>
+<script src="sketch.js"></script>
+</body>
+</html>
