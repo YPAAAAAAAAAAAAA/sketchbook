@@ -1,0 +1,17 @@
+{
+  "id": "sketchbook",
+  "title": { "en": "Sketchbook", "zh": "速写本" },
+  "intro": {
+    "en": "A pocket sketchbook of Singapore. Drag a page and the paper bends; drag the brass magnifier across the ink.",
+    "zh": "一本口袋大小的新加坡速写本。手指拖动画页，纸会弯起来；再拖黄铜放大镜，贴着墨线细看。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/sketch.css",
+    "vendor/sketch.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/sketchbook"
+}
